@@ -1,16 +1,14 @@
-cd /Users/george/Desktop/GitHub/covid19-analysis
+# COVID-19 Data Analysis
 
-echo "# COVID-19 Analysis
+This project analyzes global COVID-19 data (updated until 19 August 2024).  
+The dataset is too large for GitHub (>100MB), so it is loaded directly from Google Drive.
 
-This project analyzes the global COVID-19 dataset (updated until 19 August 2024)  
-using Python, pandas, matplotlib, and seaborn.
+## Features
+- Global COVID-19 cases trend
+- Top 10 countries by cases
+- Top 10 countries by deaths
+- Global vaccination trend
 
-Includes:
-- Global daily cases
-- Top 10 countries by cases and deaths
-- Vaccination trends (USA & Europe)
-
-The notebook is available as notebooks/covid_analysis.ipynb and exportable as HTML.
-
-Download the COVID-19 dataset [here](https://drive.google.com/file/d/1p7ACYR5E5JY7JtE-FCnxbyfpeS6NfQ5l/view?usp=sharing).
-" > README.md
+## Requirements
+```bash
+pip install -r requirements.txt
